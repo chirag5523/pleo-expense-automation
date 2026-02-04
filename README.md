@@ -1,24 +1,6 @@
 Pleo Expense Automation & SQL Integration
 
 This repository contains a suite of Python scripts designed to automate the extraction of company expenses from the Pleo API, join them with employee metadata, and export the cleaned dataset to an Azure SQL Database.
-📂 Project Structure
-
-To maintain a clean environment, organize your repository as follows:
-Plaintext
-
-pleo-automation/
-├── data/                   # Local storage for Excel files (Ignored by git)
-│   ├── Employees.xlsx      # Raw employee data from API
-│   ├── Expenses.xlsx       # Raw expense data from API
-│   ├── df_joined.xlsx      # Merged dataset produced by script
-│   └── Pleo Email List.xlsx # Master lookup for missing contact info
-├── src/                    # Source code
-│   ├── Pleo_Get_Expenses.py
-│   ├── Pleo_Emails.py
-│   └── Pleo_Job.py
-├── .gitignore              # Prevents sensitive .xlsx and .env files from uploading
-├── requirements.txt        # List of dependencies (pandas, requests, sqlalchemy)
-└── README.md
 
 ⚙️ Script Breakdown
 1. Pleo_Get_Expenses.py
