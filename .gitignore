@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Data & Environment
+.env
+data/
+*.xlsx
+*.csv
+
+# IDEs
+.vscode/
+.idea/
